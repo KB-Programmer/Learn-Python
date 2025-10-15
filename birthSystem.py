@@ -1,0 +1,5 @@
+Fname=input("Enter your first name: ")
+Sname=input("Enter your surname: ")
+Byear=int(input("Enter your birth year: "))
+Cyear=int(input("Enter the current year: "))
+print(f"Hello friend {Fname} {Sname} \nYour age is {Cyear-Byear} years \nYou were born in {Byear}")
